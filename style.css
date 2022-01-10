@@ -38,7 +38,7 @@ html {
 
 body {
   font-family: alber-new-web, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.6rem;
   letter-spacing: 1px;
@@ -175,7 +175,7 @@ button:hover:not(.outline) {
 
 .text-box {
   width: 40%;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: justify;
   background: rgb(0 0 0 / 50%);
   color: var(--on-primary);
@@ -186,6 +186,7 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 2.5rem;
+  font-weight: 500;
 }
 
 /* Contact Section */
@@ -194,6 +195,7 @@ p {
   margin-right: 5rem;
   cursor: pointer;
   color: var(--primary-color);
+  font-weight: normal;
 }
 
 .fab:hover {
