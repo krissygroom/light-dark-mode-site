@@ -40,6 +40,7 @@ body {
   font-family: alber-new-web, sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   color: var(--on-background);
   background-color: var(--background);
@@ -189,7 +190,7 @@ p {
 
 /* Contact Section */
 .fab {
-  font-size: 10rem;
+  font-size: 8rem;
   margin-right: 5rem;
   cursor: pointer;
   color: var(--primary-color);
@@ -211,14 +212,16 @@ p {
 
 .theme-switch-wrapper span {
   margin-right: 1rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 .toggle-text {
   position: relative;
   top: -4px;
   right: 5px;
-  color: var(--on-background);
+  color: var(--on-background-alt);
 }
 
 .theme-switch {
